@@ -1,0 +1,37 @@
+main{
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+hr{
+  opacity: 0.5;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; /* Text left, button right */
+  align-items: center; /* Vertically center */
+  padding: 10px 0; /* Add spacing */
+}
+
+.favorite-icon{
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.favorite-icon:hover{
+  transform: scale(1.1);
+}
+
+.filled{
+  color: red;
+}
